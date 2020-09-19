@@ -21,6 +21,5 @@ npm install / yarn install
 npm start / yarn start
 ```
 ### Live Demo
-```
+
 [https://mini-github.netlify.app/](https://mini-github.netlify.app/)
-```
