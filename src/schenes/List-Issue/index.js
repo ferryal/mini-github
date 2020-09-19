@@ -6,8 +6,7 @@ import { fetchListIssue, fetchRepo } from '../../actions/List-Issue';
 const ListIssue = () => {
 	const card = useSelector(state => state.listIssue);
 	const dispatch = useDispatch();
-	const [perPage, setperPage] = useState(null)
-	const [currentPage, setCurrentPage] = useState(1);
+	const [currentPage] = useState(1);
 	useEffect(() => {
 		dispatch(fetchListIssue(1));
 		dispatch(fetchRepo());

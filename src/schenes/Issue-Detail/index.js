@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import showdown from 'showdown';
 import { fetchIssueDetail, fetchRepo } from '../../actions/List-Issue';
@@ -16,7 +16,6 @@ const IssueDetail = (props) => {
 
 	const { repo } = listIssue;
 	const { detail } = detailIssue;
-	const { labels } = detail;
 
 	// convert markdown to html
 	let  converter = new showdown.Converter();
