@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: -webkit-fill-available;
+    font-family: 'Lato';
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#root {
+    background-color: #ffffff;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.wrapper-body,
+.wrapper-header,
+.wrapper-title,
+.wrapper-body-detail {
+    margin-top: 5rem;
+    width: 800px;
+}
+
+.wrapper-header {
+    border: 1px solid #000000;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    padding: 1rem 4rem 0rem 4rem;
+}
+
+.wrapper-header p {
+    margin-top: 35px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    border: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.wrapper-title {
+    margin-top: 3rem;
+}
+
+.wrapper-body-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.wrapper-body-detail .detail {
+    border: 1px solid #000000;
+    padding: 2rem;
+    width: 603px;
+}
+
+.wrapper-label {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.wrapper-label h5 {
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.head-issue {
+    border: 1px solid #000000;
+    background-color: #cecece;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.head-issue p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-issue {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.body-issue:hover {
+    background-color: #f7f7f7;
+}
+
+.f-size-16 {
+    font-size: 16px !important;
+}
+
+
+.pagination {
+    margin-top: 25px;
+    flex-flow: wrap;
+    display: flex;
+}
+
+.pagination span {
+    cursor: pointer;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination span.active {
+    background-color: #0099FF;
+    color: white;
+    border: 1px solid #0099FF;
+}
+
+.m-left-15 {
+    padding-left: 15px;
+}
+
+.detail-container {
+    padding-right: 15px;
+}
+
+#container {
+    margin-top: 15px;
+}
+
+.wrapper-detail {
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+    border-radius: 10px;
+}
+
+.mp-top-10 {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.mp-bottom-10 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.type {
+    font-size: 15px;
+}
+
+
+.badge {
+    margin: 5px !important;
+}
